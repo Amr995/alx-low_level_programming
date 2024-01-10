@@ -4,7 +4,7 @@
  * _pow_recursion - search a string for any of a set of bytes.
  * @x: base
  * @y: exposant
- * return: The result of x power y, and return -1 if y < 0.
+ * Return: the x power y result.
  */
 
 int _pow_recursion(int x, int y)
