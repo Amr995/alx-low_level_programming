@@ -12,13 +12,13 @@ char *_strdup(char *str)
 	int i = 0, size = 0;
 	char *m;
 
-	while(str != '\0')
+	while(*str != '\0')
 		size++;
 
 	/*+1 on the size puts the end of string character*/
 	m = malloc(size * sizeof(*str) + 1);
 
-	if (m == 0 || str == '\0')
+	if (m == 0 || *str == '\0')
 		return ('\0');
 
 	else
