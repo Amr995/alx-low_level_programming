@@ -11,10 +11,11 @@
 int main(int argc, char *argv[])
 {
 	int sum = 0;
+	int i;
 
-	for (int i = 1; i < argc; i++)
+	while (--argc)
 	{
-		int x = atoi(argv[i]);
+		int x = atoi(argv[argc]);
 
 		if (x < 0 || x > 9)
 			return (printf("Error\n"), 1);
