@@ -1,8 +1,8 @@
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
- * free_god - frees yo dawgs
+ * free_dog - frees yo dawgs
  * @d: yo dawg
  *
  * Return: void.
