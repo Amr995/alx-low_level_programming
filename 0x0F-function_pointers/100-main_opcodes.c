@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-#include <stdop.h>
+#include <stdio.h>
 
 /**
  * main - check the code for the school students.
