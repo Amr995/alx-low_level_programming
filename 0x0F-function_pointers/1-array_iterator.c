@@ -1,10 +1,9 @@
 #include "function_pointers.h"
 
 /**
- * array_interator - function that executes a function
- * given as a parameter on each element of an array.
+ * array_interator - maps an array through a function pointer.
  * @array: int
- * @size: the size
+ * @size: the array size
  * @action: the pointer to the function.
  * Return: void
  */
