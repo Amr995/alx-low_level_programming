@@ -1,6 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <stddef.h>
 
 /**
  * main - check the code for the school students.
@@ -20,6 +21,6 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(2);
 
 	while (b--)
-		printf("%02hhx%s", *p++, b? " ": "\n");
+		printf("%02hhx%s", *p++, b ? " " : "\n");
 	return (0);
 }
