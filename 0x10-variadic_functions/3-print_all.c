@@ -45,7 +45,7 @@ void format_string(char *separator, va_list ap)
  * print_all - prints anything
  * @format: the format string
  */
-void print_all(const char * const format, ..)
+void print_all(const char * const format, ...)
 {
 	int i = 0, j;
 	char *separator = "";
@@ -55,7 +55,7 @@ void print_all(const char * const format, ..)
 		{"i", format_int},
 		{"f", format_float},
 		{"s", format_string},
-		{NULL,NULL};
+		{NULL, NULL}
 	};
 
 	va_start(ap, format);
