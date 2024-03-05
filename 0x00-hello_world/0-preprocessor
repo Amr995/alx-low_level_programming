@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -p $CFILE .c
+gcc -p $CFILE ./c
