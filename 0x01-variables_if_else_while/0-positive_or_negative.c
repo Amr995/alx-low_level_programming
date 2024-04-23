@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * mian - check the sign of the number
- * description: check the type of number's sign
- * return: the number
+/**
+ * main - Check the sign of number
+ *
+ * Description: Function that checks if number is positive or negative or zero
+ *
+ * Return: 0 (success)
 */
+
 int main(void)
 {
 	int n;
