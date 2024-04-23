@@ -12,10 +12,10 @@ int main(void)
 
 	while (n <= 9)
 	{
-		puts(i);
+		printf(i);
 		i++;
 	}
-	puts('\n');
+	printf('\n');
 
 	return (0);
 }
