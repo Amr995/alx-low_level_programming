@@ -12,12 +12,12 @@ def island_perimeter(grid):
         for k, n in enumerate(r):
             if n == 1:
                 if i == 0 or grid[i - 1][k] != 1:
-                    c += 1
+                    x += 1
                 if k == 0 or grid[i][k - 1] != 1:
-                    c += 1
+                    x += 1
                 if k == width or grid[i][k + 1] != 1:
-                    c += 1
+                    x += 1
                 if i == length or grid[i + 1][k] != 1:
-                    c += 1
+                    x += 1
 
-return c
+return x
